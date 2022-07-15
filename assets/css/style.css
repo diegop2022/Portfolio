@@ -60,9 +60,36 @@ footer {
 }
 
 footer h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     color: white;
     font-size: 30px;
     margin: 0;
+    padding: 10px 15px;
+    font-size: 1.8vw;
+    font-weight: bolder;
+}
+
+footer h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 1vw;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 footer div {
@@ -90,8 +117,6 @@ footer a {
 
 .about h2 { 
     padding: 30px 0 0 30px;
-    font-size: 35px;
-    width: 48%;
+    width: 45%;
+    font-size: 1.8vw;
 }
-
-
