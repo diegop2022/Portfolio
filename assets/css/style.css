@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* HEADER / NAV BAR STYLES START */
+header {
+    padding: 20px 35px;
+    background-color: rgb(0, 81, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+/* HEADER / NAVBAR STYLES END */
+
+/* FOOTER STYLES START */
+footer {
+    background: rgb(0, 81, 255);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right; 
+}
+
+footer a {
+    color: white;
+}
+/* END FOOTER STYLES */
+
+
+/* ABOUT SECTION STYLE */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about img {
+    max-width: 30%;
+    max-height: 30%;
+    padding: 30px;
+}
+
+.about h2 { 
+    padding: 30px 0 0 30px;
+    font-size: 35px;
+    width: 48%;
+}
+
